@@ -5,11 +5,11 @@ public class Employee {
     public String email;
 
 
-    public Employee(String s, String s1, int parseInt, String s2) {
-        this.name=s;
-        this.position=s1;
-        this.experience=parseInt;
-        this.email=s2;
+    public Employee(String name, String position, int experience, String email) {
+        this.name = name;
+        this.position = position;
+        this.experience = experience;
+        this.email = email;
     }
 
     public String getName(){

@@ -1,6 +1,6 @@
 public class EmailSender {
 
     public void send(String email,String text){
-        System.out.println("текст был отправлен на email");
+        System.out.println(String.format("'%s' текст был отправлен на %s", text, email));
     }
 }
